@@ -166,6 +166,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Purchase.cshtml" />
     <Content Include="Views\Home\Purchases.cshtml" />
+    <Content Include="Views\Home\AddAuthor.cshtml" />
+    <Content Include="Views\Home\Authors.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

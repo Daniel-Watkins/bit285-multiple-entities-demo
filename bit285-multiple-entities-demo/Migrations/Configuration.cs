@@ -68,21 +68,18 @@ namespace bit285_multiple_entities_demo.Migrations
                     AuthorID = 1,
                     FirstName = "Jane",
                     LastName = "Austen",
-                    FullName = "Jane Austen"
                 },
                 new Author()
                 {
                     AuthorID = 2,
                     FirstName = "Charles",
                     LastName = "Dickens",
-                    FullName = "Jane Austen"
                 },
                 new Author()
                 {
                     AuthorID = 3,
                     FirstName = "Ursula",
                     LastName = "Le Guin",
-                    FullName = "Ursula Le Guin"
                 }
                 );
             //TODO: Add several Member records
@@ -116,21 +113,21 @@ namespace bit285_multiple_entities_demo.Migrations
                     PurchaseID = 1,
                     Amount = 10.00M,
                     BookID = 6,
-                    MemverID = 1
+                    MemberID = 1
                 },
                 new Purchase()
                 {
                     PurchaseID = 2,
                     Amount = 8.95M,
                     BookID = 4,
-                    MemverID = 2
+                    MemberID = 2
                 },
                 new Purchase()
                 {
                     PurchaseID = 3,
                     Amount = 15.00M,
                     BookID = 3,
-                    MemverID = 3
+                    MemberID = 3
                 }
                 );
 
