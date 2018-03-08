@@ -10,7 +10,7 @@ namespace bit285_multiple_entities_demo.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "IndyBooks.Models.BookstoreDbContext";
         }
 
@@ -87,7 +87,8 @@ namespace bit285_multiple_entities_demo.Migrations
                 {
                     MemberID = 1,
                     FirstName = "Ian",
-                    LastName = "Bansenauer"
+                    LastName = "Bansenauer",
+                    Email = "ian@gmail.com"
                 });
             //TODO: Seed a few more Purchase records
             context.Purchases.AddOrUpdate(p => p.PurchaseID,
