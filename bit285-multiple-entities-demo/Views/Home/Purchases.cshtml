@@ -17,6 +17,9 @@
         <th>
             @Html.DisplayNameFor(model => model.BookID)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MemberID)
+        </th>
         <th></th>
     </tr>
 
@@ -28,6 +31,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.BookID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberID)
             </td>
         </tr>
     }
