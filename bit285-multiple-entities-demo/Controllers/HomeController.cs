@@ -57,6 +57,9 @@ namespace IndyBooks.Controllers
             //TODO: Update your Book Listing  View to display the Authors Full Name, rather than the AuthorID
             return View();
         }
-
+        public ActionResult Books()
+        {
+            return View("Books", db.Books);
+        }
     }
 }

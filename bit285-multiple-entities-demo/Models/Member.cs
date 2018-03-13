@@ -16,6 +16,6 @@ namespace IndyBooks.Models
         [EmailAddress]
         public string Email { get; set; }
         // Property to represent the entity relationship: "A Member can have many Purchases"
-        public ICollection<Purchase> Purchases { get; set; }
+        public virtual ICollection<Purchase> Purchases { get; set; }
     }
 }
