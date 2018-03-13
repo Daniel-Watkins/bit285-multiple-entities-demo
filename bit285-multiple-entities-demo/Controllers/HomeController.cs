@@ -72,6 +72,18 @@ namespace IndyBooks.Controllers
         {
             return View("Authors", db.Authors);
         }
+        public ActionResult Members()
+        {
+            return View("Members", db.Members);
+        }
+        public ActionResult Books()
+        {
+            return View("Books", db.Books);
+        }
+        public ActionResult Purchases()
+        {
+            return View("Purchases", db.Purchases);
+        }
         /*
           * Member Creation and List
           * TODO: Develop methods and Views to create and list Members 

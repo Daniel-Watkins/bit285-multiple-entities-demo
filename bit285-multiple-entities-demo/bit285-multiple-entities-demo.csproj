@@ -168,6 +168,9 @@
     <Content Include="Views\Home\Purchases.cshtml" />
     <Content Include="Views\Home\AddAuthor.cshtml" />
     <Content Include="Views\Home\Authors.cshtml" />
+    <Content Include="Views\Home\AddMember.cshtml" />
+    <Content Include="Views\Home\Books.cshtml" />
+    <Content Include="Views\Home\Members.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -18,7 +18,7 @@ namespace IndyBooks.Models
         [Display(Name = "Full Name")]
         public string FullName { get { return FirstName + " " + LastName; } }
         // TODO: Add Property to represent the entity relationship: "An Author can write many Books"
-        public ICollection<Book> Books { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
 
     }
 }
